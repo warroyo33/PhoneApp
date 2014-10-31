@@ -1,0 +1,79 @@
+[
+    {
+        "xtype": "custompanel",
+        "path": "panel.Panel"
+    },
+    {
+        "xtype": "customfieldset",
+        "path": "form.FieldSet"
+    },
+    {
+        "xtype": "customlayoutborder",
+        "path": "layout.border.Panel"
+    },
+    {
+        "xtype": "sharedgrid",
+        "path": "grid.shared.Panel"
+    },
+    {
+        "xtype": "releasegrid",
+        "path": "grid.release.Panel"
+    },
+    {
+        "xtype": "piechart",
+        "path": "chart.series.Pie"
+    },
+    {
+        "xtype": "columnchart",
+        "path": "chart.series.Column"
+    },
+    {
+        "xtype": "barchart",
+        "path": "chart.series.Bar"
+    },
+    {
+        "xtype": "areachart",
+        "path": "chart.series.Area"
+    },
+    {
+        "xtype": "custombutton",
+        "path": "button.Button"
+    },
+    {
+        "xtype":"customlayoutcolumn",
+        "path":"layout.column.Panel"
+    },
+    {
+        "xtype": "customimage",
+        "path": "form.display.Image"
+    },
+    {
+        "xtype": "customtextfield",
+        "path": "form.field.Text"
+    },
+    {
+        "xtype": "demounogrid",
+        "path": "grid.demo.Demo1"
+    } ,
+    {
+        "xtype": "demodosgrid",
+        "path": "grid.demo.Demo2"
+    },
+    {
+        "xtype": "demotresgrid",
+        "path": "grid.demo.Demo3"
+    },
+    {
+        "xtype":"newcustomlayoutcolumn",
+        "path":"layout.column.Panel"
+    },
+    {
+        "xtype":"customgridpanel",
+        "path":"grid.Panel"
+    },
+    {
+        "xtype":"custommaingridpanel",
+        "path":"grid.Main"
+    }
+
+]
