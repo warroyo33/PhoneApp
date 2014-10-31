@@ -1,0 +1,289 @@
+/*!
+ * Ext JS
+ * Copyright(c) 2006-2012 Sencha Inc.
+ * licensing@sencha.com
+ * http://www.sencha.com/license
+ */
+body {
+    padding: 20px;
+    padding-top: 32px;
+}
+
+.x-body {
+    font-family: helvetica, tahoma, verdana, sans-serif;
+    font-size: 13px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.monitorLogoHD {
+    width:32px;
+    height:auto;
+}
+.example-info {
+    width: 150px;
+    border: 1px solid #c3daf9;
+    border-top: 1px solid #DCEAFB;
+    border-left: 1px solid #DCEAFB;
+    background: #ecf5fe url(info-bg.gif) repeat-x;
+    font-size: 10px;
+    padding: 8px;
+}
+
+pre.code {
+    background: #F8F8F8;
+    border: 1px solid #e8e8e8;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0px;
+    border-left: 5px solid #e8e8e8;
+    font-size: 12px !important;
+    line-height: 14px !important;
+}
+
+.msg .x-box-mc {
+    font-size: 14px;
+}
+
+#msg-tcdiv {
+    position: absolute;
+    left: 50%;
+    bottom: 17px;
+    width: 300px;
+    margin-left: -200px;
+    z-index: 20000;
+}
+
+#msg-tldiv {
+    position: absolute;
+    left: 225px;
+    bottom: 17px;
+    width: 300px;
+    margin-left: -200px;
+    z-index: 20000;
+}
+
+#msg-trdiv {
+    position: absolute;
+    left: 92%;
+    bottom: 17px;
+    width: 300px;
+    margin-left: -200px;
+    z-index: 20000;
+}
+
+#msg-tdiv {
+    position: absolute;
+    left: 5%;
+    bottom: 0px;
+    width: 90%;
+    margin: 0;
+    z-index: 9999999;
+    padding: 0;
+}
+
+/*#msg-tcdiv .msg {
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    background: #F6F6F6;
+    border: 2px solid #ccc;
+    margin-top: 2px;
+    padding: 10px 15px;
+    color: #555;
+}
+
+#msg-tldiv .msg {
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    background: #F6F6F6;
+    border: 2px solid #ccc;
+    margin-top: 2px;
+    padding: 10px 15px;
+    color: #555;
+}
+
+#msg-trdiv .msg {
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    background: #F6F6F6;
+    border: 2px solid #ccc;
+    margin-top: 2px;
+    padding: 10px 15px;
+    color: #555;
+} */
+#msg-tcdiv .msg h3 {
+    margin: 0 0 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#msg-tldiv .msg h3 {
+    margin: 0 0 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#msg-trdiv .msg h3 {
+    margin: 0 0 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#msg-tdiv .msg h3 {
+    margin: 0 0 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#msg-tcdiv .msg p {
+    margin: 0;
+}
+
+#msg-trdiv .msg p {
+    margin: 0;
+}
+
+#msg-tldiv .msg p {
+    margin: 0;
+}
+
+#msg-tdiv .msg p {
+    margin: 0;
+}
+
+.jumerror {
+    overflow: hidden;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    padding: 5px 7px;
+    opacity: 0.85;
+    background-image: url(../images/error.png);
+    background-attachment: scroll;
+    background-color: red;
+    border: 1px solid rgb(139, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 4px;
+    color: rgb(255, 255, 255) !important;
+    /*width: 310px;*/
+    cursor: pointer;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+}
+.jumerrorclosebutton {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(255, 255, 255);
+}
+
+.jumalert {
+    overflow: hidden;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    padding: 5px 7px;
+    opacity: 0.85;
+    background-image: url(../images/alert.png);
+    background-attachment: scroll;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 4px;
+    color: rgb(68, 68, 68) !important;
+    /*width: 310px;*/
+    cursor: pointer;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+}
+.jumalertclosebutton{
+    color: rgb(68, 68, 68) !important;
+    background-color: rgb(68, 68, 68);
+}
+.jumsuccess {
+    overflow: hidden;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    padding: 5px 7px;
+    opacity: 0.85;
+    background-image: url(../images/success.png);
+    background-attachment: scroll;
+    background-color: rgb(144, 238, 144);
+    border: 1px solid rgb(80, 194, 78);
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 4px;
+    color: rgb(0, 100, 0);
+    /*width: 310px;*/
+    cursor: pointer;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+}
+.jumsuccessclosebutton{
+    color: rgb(0, 100, 0);
+    background-color: rgb(0, 100, 0);
+}
+.jumwarning {
+    overflow: hidden;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    padding: 5px 7px;
+    opacity: 0.85;
+    background-image: url(../images/warning.png);
+    background-attachment: scroll;
+    background-color: rgb(255, 234, 168);
+    border: 1px solid rgb(255, 194, 55);
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 4px;
+    color: rgb(130, 98, 0);
+    /*width: 310px;*/
+    cursor: pointer;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+}
+.jumwarningclosebutton{
+    color: rgb(130, 98, 0);
+    background-color: rgb(130, 98, 0);
+}
+.juminformation {
+    overflow: hidden;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    padding: 5px 7px;
+    opacity: 0.85;
+    background-image: url(../images/information.png);
+    background-attachment: scroll;
+    background-color: rgb(87, 183, 226);
+    border: 1px solid rgb(11, 144, 196);
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 4px;
+    color: rgb(255, 255, 255);
+    /*width: 310px;*/
+    cursor: pointer;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+}
+.juminformationclosebutton{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+.x-grid3-row-body p {
+    margin: 5px 5px 10px 5px !important;
+}
+
+.feature-list {
+    margin-bottom: 15px;
+}
+
+.feature-list li {
+    list-style: disc;
+    margin-left: 17px;
+    margin-bottom: 4px;
+}
